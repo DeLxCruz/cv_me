@@ -1,0 +1,39 @@
+.section1 {
+    background-color: #22577a;
+    padding-top: 1rem;
+}
+
+.section1__divImg {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.section1__divImg--img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+.section1__datos {
+    margin: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+}
+
+.section1__datos--title {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.section1__datos--data {
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}

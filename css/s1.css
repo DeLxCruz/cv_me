@@ -1,6 +1,7 @@
 .section1 {
     background-color: #22577a;
-    padding-top: 1rem;
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
 }
 
 .section1__divImg {

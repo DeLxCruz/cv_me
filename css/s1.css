@@ -2,7 +2,7 @@
     background-color: #22577a;
     padding: 1rem;
     border-radius: 1rem;
-    height: 100%;
+    height: calc(100% - 2rem);
 }
 
 .section1__divImg {
@@ -55,6 +55,41 @@
     font-weight: 400;
     font-size: 1.25rem;
     text-align: justify;
+    line-height: 1.5rem;
     margin: 2.5rem 1rem;
     color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1366px){
+    .section1 {
+        height: calc(100vh - 60px);
+    }
+
+    .section1__divImg--img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section1__datos {
+        margin: 2rem .75rem;
+    }
+
+    .section1__datos--title {
+        font-size: 1.1rem;
+    }
+
+    .section1__datos--data {
+        font-size: 1rem;
+    }
+
+    .section1__perfil--title {
+        font-size: 1.4rem;
+    }
+
+    .section1__perfil--data {
+        font-size: 1rem;
+        margin: 1rem .75rem;
+    }
 }

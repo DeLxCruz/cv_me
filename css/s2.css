@@ -2,7 +2,7 @@
     background-color: #38a3a5;
     padding: 1rem;
     border-radius: 1rem;
-    height: 100%;
+    height: calc(100% - 2rem);
 }
 
 .section2__skills {
@@ -167,4 +167,55 @@
     color: #fff;
     font-weight: 400;
     margin: 1rem 0;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1366px) {
+    .section2 {
+        height: calc(100vh - 60px);
+    }
+    .section2__skills--title {
+        font-size: 1.7rem;
+        margin: 1rem 0;
+    }
+
+    .section2__skills--cards {
+        column-gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .section2__logros {
+        margin: 1rem;
+    }
+
+    .section2__cards--card1, .section2__cards--card2, .section2__cards--card3, .section2__cards--card4, .section2__cards--card5, .section2__cards--card6, .section2__cards--card7 {
+        padding: .5rem;
+    }
+
+    .section2__cards--img {
+        margin: 0;
+    }
+
+    .section2__cards--text {
+        margin-top: .5rem;
+    }
+
+    .section2__cards--text  {
+        font-weight: 600;
+    }
+
+    .section2__logros {
+        flex-direction: column;
+    }
+
+    .section2__logros--title {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .section2__logros--item {
+        margin: .75rem 0;
+    }
 }

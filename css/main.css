@@ -1,6 +1,13 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0.75em;
-    height: 100vh;
+    margin: 1rem;
+    height: 100%;
 }

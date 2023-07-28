@@ -116,3 +116,11 @@
         row-gap: .75rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .section3 {
+        height: fit-content;
+        width: calc(350px - 2rem);
+    }
+
+}

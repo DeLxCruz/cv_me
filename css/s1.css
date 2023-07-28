@@ -93,3 +93,30 @@
         margin: 1rem .75rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .section1 {
+        height: fit-content;
+        width: calc(350px - 2rem);
+    }
+
+    .section1__datos {
+        margin: 2.5rem 0;
+    }
+
+    .section1__datos--title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1__datos--data {
+        font-size: 1rem;
+        word-wrap: break-word;
+        margin-top: 10px;
+    }
+
+    .section1__perfil--data {
+        font-size: 1rem;
+        margin: 1rem .75rem;
+    }
+}

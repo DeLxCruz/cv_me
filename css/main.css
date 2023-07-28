@@ -22,3 +22,30 @@ main {
         place-items: center;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.75em;
+        margin: 1rem;
+    }
+}
+    
+@media only screen and (max-width: 600px) {
+    body {
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: .25rem;
+    }
+}

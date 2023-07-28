@@ -21,6 +21,10 @@ main {
         display: grid;
         place-items: center;
     }
+
+    main {
+        margin: 1rem 1rem;    
+    }
 }
 
 @media only screen and (max-width: 768px) {

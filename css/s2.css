@@ -176,9 +176,15 @@
     .section2 {
         height: calc(100vh - 60px);
     }
+
+    .section2__skills {
+        margin: 1rem;
+    }
+
     .section2__skills--title {
-        font-size: 1.7rem;
-        margin: 1rem 0;
+        font-size: 1.4rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
     }
 
     .section2__skills--cards {
@@ -187,7 +193,7 @@
     }
 
     .section2__logros {
-        margin: 1rem;
+        margin: .75rem 1rem 0 1rem;
     }
 
     .section2__cards--card1, .section2__cards--card2, .section2__cards--card3, .section2__cards--card4, .section2__cards--card5, .section2__cards--card6, .section2__cards--card7 {
@@ -196,6 +202,8 @@
 
     .section2__cards--img {
         margin: 0;
+        width: 32px;
+        height: 32px;
     }
 
     .section2__cards--text {
@@ -216,7 +224,8 @@
     }
 
     .section2__logros--item {
-        margin: .75rem 0;
+        margin: .6rem 0;
+        font-size: .9rem;
     }
 }
 

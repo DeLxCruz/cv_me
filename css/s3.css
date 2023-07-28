@@ -98,22 +98,30 @@
     .section3 {
         height: calc(100vh - 60px);
     }
+
     .section3__languages-title {
+        font-size: 1.4rem;
         margin: 1rem 0;
-        font-size: 1.7rem;
     }
 
     .section3__languages-data {
-        margin-bottom: .75rem;
+        margin-bottom: .5rem;
+        row-gap: .5rem;
     }
 
     .section3__studies-title {
-        margin: .5rem 0;
-        font-size: 1.75rem;
+        margin: 0 0 .5rem 0;
+        font-size: 1.5rem;
     }
 
     .section3__studies-list {
         row-gap: .75rem;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .section3__list-item {
+        font-size: .95rem;
     }
 }
 
